@@ -76,7 +76,7 @@ const CartProvider = ({ children }) => {
     addItem: addItemToCartHandler,
     removeItem: removeItemToCartHandler,
   };
-  console.log(cartContext);
+  // console.log(cartContext);
   return (
     <CartContext.Provider value={cartContext}>{children}</CartContext.Provider>
   );
