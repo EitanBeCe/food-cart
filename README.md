@@ -4,8 +4,9 @@
 
 - Basic form validation with refs. Without onChange onBlur value, and check for touching an input, or useForm hook.
 - I did it in other project (https://github.com/EitanBeCe/react-forms) an here just kept it simplier.
-- Also here I didn't use useHttp Custom Hook. To write here everything again.
-- I did it in other project (https://github.com/EitanBeCe/custom-hook2/blob/master/src/components/hooks/use-http.js).
+- Here I didn't use useHttp Custom Hook. To write here everything again.
+- I also didn't imlplement the error state.
+- I did it in other projects, for example (https://github.com/EitanBeCe/custom-hook2/blob/master/src/components/hooks/use-http.js).
 
 # Getting Started with Create React App
 

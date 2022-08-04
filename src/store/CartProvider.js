@@ -47,10 +47,14 @@ const cartReducer = (state, action) => {
         ...existingCartItem,
         amount: existingCartItem.amount - 1,
       };
-      updatedItems = [ ...state.items ];
+      updatedItems = [...state.items];
       updatedItems[existingCartItemIndex] = updatedItem;
     }
     return { items: updatedItems, totalAmount: updateTotalAmount };
+  }
+
+  if (action.type === "CLEAR") {
+    return defaultCartState;
   }
 
   return defaultCartState;
@@ -70,11 +74,16 @@ const CartProvider = ({ children }) => {
     dispatchCartAction({ type: "REMOVE", id });
   };
 
+  const clearCartHandler = () => {
+    dispatchCartAction({ type: "CLEAR" });
+  };
+
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
     addItem: addItemToCartHandler,
     removeItem: removeItemToCartHandler,
+    clearCart: clearCartHandler,
   };
   // console.log(cartContext);
   return (
