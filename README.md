@@ -1,7 +1,11 @@
-- A side project created for choosing food from menu, adding to the cart.
+- A side project created for ordering food from menu, adding it to the cart. Food in menu comes from FirebaseAPI (with Fetch API), user's orders are also sent there. After ordering the user should fill Form with validadion. Cart an Form are in Modal window.
 - Written on React.js.
-- Hooks: useState, useEffect, useContext, useReducer, useRef, forwardRef, useImperative...
+- Hooks: useState, useEffect, useContext, useReducer, useRef, forwardRef, useImperative, ReactDOM.createPortal...
 
+- Basic form validation with refs. Without onChange onBlur value, and check for touching an input, or useForm hook.
+- I did it in other project (https://github.com/EitanBeCe/react-forms) an here just kept it simplier.
+- Also here I didn't use useHttp Custom Hook. To write here everything again.
+- I did it in other project (https://github.com/EitanBeCe/custom-hook2/blob/master/src/components/hooks/use-http.js).
 
 # Getting Started with Create React App
 

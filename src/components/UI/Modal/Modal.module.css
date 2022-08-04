@@ -6,12 +6,11 @@
   height: 100vh;
   z-index: 20;
   background-color: rgba(0, 0, 0, 0.75);
-  animation: opacity 400ms ease-out forwards;
 }
 
 .modal {
   position: fixed;
-  top: 20vh;
+  top: 15vh;
   left: 5%;
   width: 90%;
   background-color: white;
@@ -37,14 +36,5 @@
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes opacity {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }

@@ -1,4 +1,4 @@
-// Replaced with meals from Firebase
+// Replaced with meals from Firebase API
 
 // const DUMMY_MEALS = [
 //     {
