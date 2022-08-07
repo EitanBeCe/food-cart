@@ -6,7 +6,8 @@ import CartItem from "./CartItem/CartItem";
 import Checkout from "./Checkout/Checkout";
 
 // Here I didn't use useHttp Custom Hook. To write here everything again.
-// I did it in other project (https://github.com/EitanBeCe/custom-hook2/blob/master/src/components/hooks/use-http.js).
+// I also didn't imlplement the error state.
+// I did it in other projects, for example (https://github.com/EitanBeCe/custom-hook2/blob/master/src/components/hooks/use-http.js).
 
 const url =
   "https://react-starwars-api-f288b-default-rtdb.firebaseio.com/orders.json";
