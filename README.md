@@ -1,12 +1,10 @@
-- A side project created for ordering food from menu, adding it to the cart. Food in menu comes from FirebaseAPI (with Fetch API), user's orders are also sent there. After ordering the user should fill Form with validadion. Cart and Form are in a Modal window.
-- Written on React.js.
-- Hooks: useState, useEffect, useContext, useReducer, useRef, forwardRef, useImperative, ReactDOM.createPortal...
+- A side project created for ordering food from a menu, adding it to the cart. Food in menu comes from FirebaseAPI (with Fetch API), user's orders are also sent there. To make an order a user should fill a Form with validadion. Cart and Form are opening in a Modal window.
 
-- Basic form validation with refs. Without onChange onBlur value, check for touching an input, or useForm hook.
-- I did it in other project (https://github.com/EitanBeCe/react-forms) and here just kept it simplier.
-- Here I didn't use useHttp Custom Hook. To write here everything again.
-- I also didn't imlplement the error state.
-- I did it in other projects, for example (https://github.com/EitanBeCe/custom-hook2/blob/master/src/components/hooks/use-http.js).
+- Written on React.js.
+- Hooks: useState, useEffect, useContext, useReducer, useRef, forwardRef, ReactDOM.createPortal...
+- Responsive Template.
+
+- Basic form validation with refs. Without onChange onBlur value, checks for touching an input, or useForm hook. (I did it in other project https://github.com/EitanBeCe/react-forms and here just kept it simplier)
 
 # Getting Started with Create React App
 

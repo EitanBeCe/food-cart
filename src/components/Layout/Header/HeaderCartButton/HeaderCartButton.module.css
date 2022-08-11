@@ -10,7 +10,7 @@
   align-items: center;
   border-radius: 25px;
   font-weight: bold;
-  transition: .5s all;
+  transition: 0.5s all;
 }
 
 .button:hover,
@@ -30,7 +30,7 @@
   border-radius: 25px;
   margin-left: 1rem;
   font-weight: bold;
-  transition: .7s all;
+  transition: 0.7s all;
 }
 
 .button:hover .badge,
@@ -57,5 +57,11 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media (max-width: 576px) {
+  .button {
+    padding: 0.75rem 1rem;
   }
 }
